@@ -1,0 +1,58 @@
+import { Meta } from '@storybook/addon-docs';
+
+<Meta title="コンポーネント/About" />
+
+<div class="mdx">
+
+<h1 class="first-letter:text-7xl">About</h1>
+
+## コンポーネント
+
+この階層には、componentsディレクトリに実装したカスタムコンポーネントについて記述します。
+
+なおcomponentsディレクトリに実装したカスタマイズコンポーネントは、Nuxt3の機能でグローバルコンポーネントとして登録されます。そのためimport文なしで利用可能です。
+
+※ただしこれは「Nuxt3上」での話です。Storybookとして動作させる際はその限りではありません。
+
+## TIPS
+
+list
+
+- tips1
+- tips2
+
+ordered list
+
+1. tips3
+2. tips4
+
+## link
+
+[qiita](https://qiita.com/)
+
+> hogefuge
+
+```typescript
+const hoge: string = 'fuga';
+```
+
+```js
+const hoge = 'fuga';
+```
+
+```sh
+echo hoge
+```
+
+![Qiita](https://qiita-image-store.s3.amazonaws.com/0/45617/015bd058-7ea0-e6a5-b9cb-36a4fb38e59c.png "Qiita")
+
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       | This        | This         |
+| column     | column      | column       |
+| will       | will        | will         |
+| be         | be          | be           |
+| left       | right       | center       |
+| aligned    | aligned     | aligned      |
+
+</div>
