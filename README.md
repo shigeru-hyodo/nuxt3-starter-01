@@ -28,6 +28,8 @@ nuxt3-starter-01 % node -v
 v18.15.0
 ```
 
+切り替え後はnpm run devする前に、node_modulesと.nuxtを削除してから再度npm i && npm run devすると良い。
+
 ## 使い方
 
 ```zsh
