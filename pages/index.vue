@@ -20,5 +20,15 @@
         VueUse使用例
       </AppLink>
     </div>
+    <div>
+      <AppLink href="http://localhost:3000/_tailwind/">
+        Tailwind Viewer（npm run devで同時に起動）
+      </AppLink>
+    </div>
+    <div>
+      <AppLink href="http://localhost:6006/">
+        Storybook（npm run storybookで起動）
+      </AppLink>
+    </div>
   </AppContainer>
 </template>

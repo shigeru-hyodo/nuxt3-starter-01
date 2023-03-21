@@ -1,18 +1,22 @@
 import AppH2 from '~~/components/AppH2.vue';
+import AppRoundedBorder from '~~/components/AppRoundedBorder.vue';
 import { generateSource } from '~~/stories/generateSource';
 
 export default {
-  title: 'components/基底コンポーネント/AppH2',
-  component: AppH2,
+  title: 'components/基底コンポーネント/AppRoundedBorder',
+  component: AppRoundedBorder,
 };
 
 const template = `
-<AppH2 v-bind="args">
-  heading
-</AppH2>
+<AppRoundedBorder v-bind="args">
+  <AppH2>heading</AppH2>
+  <p>contents</p>
+  <p>contents</p>
+  <p>contents</p>
+</AppRoundedBorder>
 `;
 const Template = args => ({
-  components: { AppH2 },
+  components: { AppRoundedBorder, AppH2 },
   setup () {
     return { args };
   },

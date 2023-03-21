@@ -71,7 +71,7 @@ Mac版VSCodeならoption+zで行の自動折り返しが有効になる。
 
 ~いくつかのパターンがあるが、webpack云々のエラーならnode_modulesとpackage-lock.jsonを一度削除して、再度npm iすることで治るケースもある。~
 
-……が、しかし、この方法で直すと、 **「nuxt-graphql-client」や「graphql-codegen」が動かない（厳密にはcodegenのtypescript-operationsプラグインが動かない）状態になってしまうので、代わりに **`npx sb@next upgrade --prerelease` でStorybook v7に更新することでエラーを直した。**
+……が、しかし、この方法で直すと、 **「nuxt-graphql-client」や「graphql-codegen」が動かない（厳密にはcodegenのtypescript-operationsプラグインが動かない）** 状態になってしまうので、代わりに **`npx sb@next upgrade --prerelease` でStorybook v7に更新することでエラーを直した。**
 
 エラー例は下記。
 

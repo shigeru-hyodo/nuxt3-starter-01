@@ -1,5 +1,4 @@
 import '~~/assets/css/tailwind.css'
-import '~~/stories/mdx.css'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
