@@ -1,3 +1,33 @@
+## 動作環境
+
+動くことを確認できているNodeバージョンは下記
+
+ - 16.x.x
+ - 18.x.x
+
+### もしNode v18を導入するなら
+
+nvm導入済みなら下記でインストール＆切り替え可能。
+
+```zsh
+# Node v18導入
+nuxt3-starter-01 % nvm install 18
+Downloading and installing node v18.15.0...
+Downloading https://nodejs.org/dist/v18.15.0/node-v18.15.0-darwin-arm64.tar.xz...
+############################################################# 100.0%
+Computing checksum with shasum -a 256
+Checksums matched!
+Now using node v18.15.0 (npm v9.5.0)
+
+# 使用するNodeをv18に切り替え
+nuxt3-starter-01 % nvm use 18
+Now using node v18.15.0 (npm v9.5.0)
+
+# 切り替えできたか確認
+nuxt3-starter-01 % node -v
+v18.15.0
+```
+
 ## 使い方
 
 ```zsh
