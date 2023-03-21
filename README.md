@@ -46,6 +46,18 @@ npm run storybook
 
 上記の他、Cognitoによる認証を試したいなら、 `.env` を自環境向けに新規作成すること。なお `.env` にどんなことを書くべきかの例として、 `.env.example` を用意している。
 
+### リポジトリに別名をつけてcloneし、git管理を外したい人は
+
+こうする
+
+```zsh
+# 例：リポジトリ名を「nuxt3-app」に変更してcloneするなら
+git clone https://github.com/shigeru-hyodo/nuxt3-starter-01 nuxt3-app
+
+# git管理を解除
+rm -rf .git
+```
+
 ## セットアップ（このリポジトリではセットアップ実施済み）
 
 ```zsh
