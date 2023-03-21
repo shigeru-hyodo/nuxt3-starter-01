@@ -1,4 +1,18 @@
-## セットアップ
+## 使い方
+
+```zsh
+# 環境構築
+git clone https://github.com/shigeru-hyodo/nuxt3-starter-01
+npm i
+
+# Nuxt3起動
+npm run dev
+
+# Storybook起動
+npm run storybook
+```
+
+## セットアップ（このリポジトリではセットアップ実施済み）
 
 ```zsh
 # Nuxt3雛形作成
@@ -34,6 +48,9 @@ npm i -D react react-dom
 npm i -D tailwindcss @tailwindcss/postcss7-compat
 # Storybook上でNuxt3同様に自動インポートが効くようにしたい
 npm i -D unplugin-vue-components unplugin-auto-import
+
+# Storybook v7へアップデート
+npx sb@next upgrade --prerelease
 ```
 
 ## 推奨するVSCode拡張機能
